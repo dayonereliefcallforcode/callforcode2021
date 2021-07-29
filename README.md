@@ -1,5 +1,5 @@
 # Day One Relief - Call For Code
-### Risk Analysis, Prediction and Preparedness for Disaster Relief
+### Day One Relief Solutions - Risk Analysis, Prediction and Preparedness for Disaster Relief
 
 <img src="readme/day1call.png" />
 
@@ -18,7 +18,7 @@ We are working on creating racial equity in the vaccine rollout. We are phoneban
 
 ## Contents
 
-- [Risk Analysis, Prediction and Preparedness for Disaster Relief](#project-name) 
+- [Day One Relief Solutions](#project-name) 
   - [Short description](#short-description)
     - [What's the problem?](#whats-the-problem)
     - [How can technology help?](#how-can-technology-help)
@@ -39,8 +39,8 @@ We are working on creating racial equity in the vaccine rollout. We are phoneban
   - [Acknowledgments](#acknowledgments)
   
 
-# Risk Analysis, Prediction and Preparedness for Disaster Relief
- 
+# Project Name
+### Day One Relief Solutions
 
 
 ## Short description
