@@ -142,11 +142,21 @@ In the IBM Cloud Pak for Data - IBM Watson Studio, you can create Python, Scala,
 With all the data and indexes available , we  can calculate which areas will need more attention in case of a hurricane,  We are doing this for a Zip code level, North Carolina has 802 zip codes, based on SVI, NRI, Population and the elevation data, we can calculated the most vulnerable areas. Next based on 15 day Forecast from National Weather Service and National Hurricane Service, we can calculate the areas that will need more focus. Finally, if any ot the areas is facing power outages, we can highlight that.
 
 #### Unclassfied alerts for North Carolina from National Weather Service
-<img src="readme/unclass.png" width="1000px" height="400px" />
+<img src="readme/unclassf.png" width="1000px" height="400px" />
+
+
+### For analyzing  weather forecast data and generating candidate machine learning models, we used Watson Studio AutoAI Experiment
+##### AutoAI Experiment Recommended LGBM Classfier
+<img src="readme/modelrecm.png"  /> 
+
+
+#### Custom built LogisticRegression Model provided better accuray, 
+##### LogisticRegression Model Accuracy, Precision, Recall, Confusion matrix
+<img src="readme/modelacc.png"  width="500px" height="400px" />
 
 
 #### Classfied alerts for North Carolina from National Weather Service, drawn over current power outages
-<img src="readme/class.png"  width="1000px" height="400px" />
+<img src="readme/classf.png" />
 
 
 ### Data extract scripts
