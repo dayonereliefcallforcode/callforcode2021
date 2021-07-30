@@ -1,5 +1,6 @@
 <%@ page import="java.util.*, java.text.DecimalFormat"%> 
 <!-- Author: Nikita Nangia -->
+
 <style>
  
 .custom-popup .leaflet-popup-content-wrapper {
@@ -63,7 +64,7 @@ String[] ncounties={"Alamance", "Alexander", "Alleghany", "Anson", "Ashe", "Aver
 	src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
 <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"
 	type="text/javascript" charset="utf8"></script>
-
+	
 <script src="leaflet/leaflet.markercluster-src.js"></script>
 <script src="leaflet/shp.min.js"></script>
 <script src="js/datas.js"></script>
@@ -185,6 +186,16 @@ String[] ncounties={"Alamance", "Alexander", "Alleghany", "Anson", "Ashe", "Aver
 										<td style="width: 5%">
 										<td style="width: 75%"><label class="checkcont">Locations<input  id="sitesite" type="checkbox" onclick="doSite()"><span class="checkmark"></span></label></td>
 										<td width="20%"><img class="mypic" id="picsupp" src="images/icons/ORI-Icons-supplier.png" width="20px" height="20px" /></td> 
+									</tr> 
+							 <tr>
+										<td style="width: 5%">
+										<td style="width: 75%"><label class="checkcont">Animal Farms<input  id="siteanimal" type="checkbox" onclick="doAnimal()"><span class="checkmark"></span></label></td>
+										<td width="20%"><img class="mypic" id="picani" src="images/icons/ORI-Icons-cattle.png" width="20px" height="20px" /></td> 
+									</tr> 
+							 <tr>
+										<td style="width: 5%">
+										<td style="width: 75%"><label class="checkcont">Watersheds<input  id="chkdam" type="checkbox" onclick="dochkdam()"><span class="checkmark"></span></label></td>
+										<td width="20%"><img class="mypic" id="picchkdam" src="images/icons/ORI-Icons-watershed.png" width="20px" height="20px" /></td> 
 									</tr> 
 									<tr>
 										<td style="width: 5%">

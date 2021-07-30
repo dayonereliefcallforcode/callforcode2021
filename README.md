@@ -28,8 +28,8 @@ We are working on creating racial equity in the vaccine rollout. We are phoneban
   - [The architecture](#the-architecture)
   - [Long description](#long-description)
   	- [Web Based Dashboard](#web-based-dashboard)
+  	- [Jupyter Notebook Analysis](#jupyter-notebook-analysis)  
   	- [Data extract scripts](#data-extract-scripts)
-    - [Jupyter Notebook Analysis](#jupyter-notebook-analysis)  
   - [Demo video](#demo-video) 
   - [Project roadmap](#project-roadmap)
   - [Getting started](#getting-started)
@@ -47,22 +47,36 @@ We are working on creating racial equity in the vaccine rollout. We are phoneban
 
 ### What's the problem?
 
-Whether it’s a hurricane, or Pandemic relief or a building collapse, The best first responders are the local NGOS, these organizations know their environments and people best. NGOs are the “go-to” entities in disaster response and recovery because of their real  insight on the needs, and sociocultural complexities of their neighborhoods.
+Day One focuses on BIPOC and other underserved communities, using IBM technology to determine where relief is needed. Most often, that relief takes the form of drinkable water. The solution we’ve designed cuts to the heart of the clean water issue, identifying the regions where clean water access is lacking and then facilitating distribution of drinking water to the disaster impacted.
 
-Day One Relief goes wherever the gaps are, and recently that has been the supply chain for the COVID-19 response. It has secured and delivered gowns, booties and masks to federal prisons, emergency departments in hospitals, farmworker camps—wherever the need was greatest.
+We recognize that the scope of the disaster is usually larger than the hurricane itself. Flooding may continue for days or weeks, stranding communities and contaminating water bodies and groundwater. Hurricane Floyd (1999) demonstrated how environmentally destructive this phenomenon can be. The floods killed millions of farm animals and flushed millions of tons of animal waste from lagoons into the water supply, polluting tributaries and the Cape Fear River. The state was forced to order portable incinerators be flown in from out of state in order to deal with all the rotting animal carcasses.
 
-For Day One Relief and its partner NGOs, toughest challenge, however, might be coming up. COVID-19 is surging in the South. And this year’s hurricane season, which started in June and continues through November, is predicted to be harsher than usual. How do you not only keep people safe after their homes have been destroyed, but also keep them socially distant? And how do you keep your volunteers safe when they enter coronavirus hotspots?
+For Day One Relief and its partner NGOs, toughest challenge, however, might be coming up. COVID-19 is surging in the South. And this year’s hurricane season, which started in June and continues through November, is predicted to be harsher than usual. 
+
+<b>How do you not only keep people safe after their homes have been destroyed, but also keep them socially distant? And how do you keep your volunteers safe when they enter coronavirus hotspots? <br />How do you provide drinking water to the communities in need in the aftermath of a natural disaster?</b>
 
 
 ### How can technology help?
 
-Fatalities and injuries from natural disasters can be reduced if the disaster can be predicted and advance warning given to people in the danger zone. 
-In recent times, technology has been employed to fast track disaster relief efforts.Awareness, education, preparedness, and prediction and warning systems can reduce the disruptive impacts of a natural disaster on communities.
+Fatalities and injuries from natural disasters can be reduced if the disaster can be predicted and advance warning given to people in the danger zone. I
+In recent times, technology has been employed to fast track disaster relief efforts.Awareness, education, preparedness, and prediction and warning systems can reduce the disruptive impacts of a natural disaster on communities. Technology can also help identify the most vulnerable communities, relief organizations will have the ability to prioritize the most vulnerable without spending precious hours on manual risk assessment.
+
+Gaining access to clean, safe water is one of the first priorities after a natural disaster. During a natural disaster, water supplies including drinking water wells can be contaminated with anything from livestock waste to chemicals. Technology can help evaluate where and when water and other supplies are required, getting there just after the storm does.It can also reduce the frequency of wasteful response efforts.
 
 ### The idea
 
+<img align="right"   src="readme/cleanwater.png"> 
+
 A web based dashboard which show all data points, forecasts, power outages - everything is in one place, constantly updating, so that decisions can be made faster and smarter. Other disaster relief groups can customize this platform to better understand their respective geographical regions by tracking weather patterns, COVID-19 cases and locations of the poorest, most vulnerable people, as well as sites of hospitals, airports, private airstrips and warehouses.
 
+
+We intend to allow easy integration of new data so that stakeholders may prioritize hazards or distribution points most crucial to them. For example, concentrated animal feeding operations, or hog farms, which are ubiquitous in North Carolina, can become severe risks during flood events when tons of manure and waste water are discharged into clean water sources. The EPA provides data and locations for the whole state and once these data sets are loaded, Watson could tell us which zones are likely to face contamination of drinking water, often a major issue in the aftermath of heavy storms.  
+
+##### Clean water after heavy rains or floods
+
+Day One Relief Solutions addresses the problem of providing clean water by creating insights as to where clean water will be needed in the aftermath of a natural disaster. We know from experience how many impacted communities will lack access to drinkable water and means of proper sanitation–made even more important by the surge in cases of the Covid-19 Delta variant. The platform we have built consolidates thousands of static data sets with multi-hazard dynamic risk analysis onto an easily digestible web dashboard that disaster response leaders can use to prioritize the most vulnerable during relief efforts. We use Jupyter Notebook in Watson Studio to analyze weather forecasts in conjunction with our county level data, (e.g., local power outages, elevation, CDC SVI, FEMA NRI) in order to determine which counties will be most impacted by a storm. We have recently finished integrating statewide animal feed operations locations, as well as dams and watersheds, so that we might understand better which communities are most susceptible to prolonged flooding and water contamination. In the future, we intend to develop a more sophisticated algorithm to output our own index of social vulnerability which updates in sync with our dynamic layers.
+
+Using the insights our platform provides, relief efforts will be far more organized than was previously possible. With access to high-quality weather data and Watson’s predictive modeling, we can easily see which communities will be in the path of the storm and notify them ahead of time. We know exactly which shelters will be safe for emergency and the process of getting them supplied is expedited significantly. We can also reduce the frequency of wasteful relief efforts in cases where the storm’s path changes.
 
 
 ## IBM services used
@@ -85,6 +99,9 @@ A web based dashboard which show all data points, forecasts, power outages - eve
 ## Open data sources used
 <ul><li><a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html">CDC/ATSDR Social Vulnerability Index</a></li></ul>
 <ul><li><a href="https://www.fema.gov/flood-maps/products-tools/national-risk-index">FEMA National Risk Index for Natural Hazards & Flood Index</a></li></ul> 
+<ul><li><a href="https://deq.nc.gov/about/divisions/water-resources/water-quality-permitting/animal-feeding-operations">Animal feeding operations across North Carolina provide by The North Carolina Department of Environmental Quality</a></li></ul> 
+<ul><li><a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography/watershed-boundary-dataset?qt-science_support_page_related_con=4#qt-science_support_page_related_con">Wastershed data provided by USGS.gov</a></li></ul> 
+
 <ul><li><a href="https://api.weather.gov/alerts/active?area=NC">NWS - Current Alerts For North Carolina</a></li> </ul>
 <ul><li><a href="https://api.weather.gov/alerts">NWS - Current Temperatures & Forecast for North Carolina Cities</a></li> </ul>
 <ul><li><a href="https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map">USGS - Elevation Data for North Carolina</a></li> </ul>
@@ -98,10 +115,17 @@ A web based dashboard which show all data points, forecasts, power outages - eve
 
 ## Long description
 
+When hurricanes strike, large relief organizations are too cumbersome to meet the rapidly shifting demands of a disaster scenario and often fail to reach the most vulnerable communities in time. 	
+
+Day One Relief Solutions addresses this problem by creating insights as to where clean water will be needed in the aftermath of a natural disaster. We know from experience how many impacted communities will lack access to drinkable water and means of proper sanitation–made even more important by the surge in cases of the Covid-19 Delta variant. The platform we have built consolidates thousands of static data sets with multi-hazard dynamic risk analysis onto an easily digestible web dashboard that disaster response leaders can use to prioritize the most vulnerable during relief efforts. We use Jupyter Notebook in Watson Studio to analyze weather forecasts in conjunction with our county level data, (e.g., local power outages, elevation, CDC SVI, FEMA NRI) in order to determine which counties will be most impacted by a storm. We have recently finished integrating statewide animal feed operations locations, as well as dams and watersheds, so that we might understand better which communities are most susceptible to prolonged flooding and water contamination. In the future, we intend to develop a more sophisticated algorithm to output our own index of social vulnerability which updates in sync with our dynamic layers.
+	
+Using the insights our platform provides, relief efforts will be far more organized than was previously possible. With access to high-quality weather data and Watson’s predictive modeling, we can easily see which communities will be in the path of the storm and notify them ahead of time. We know exactly which shelters will be safe for emergency and the process of getting them supplied is expedited significantly. We can also reduce the frequency of wasteful relief efforts in cases where the storm’s path changes.
+
 ### Day One Relief - Call for Code submission contains below projects 
 
 1.	A Interactive Web Based Dashboard of North Carolina
 2.	Jupyter Notebook based prediction - Predict which NC counties will be most at risk from a Hurricane or Tropical Storm 
+3.  Data Extract Scripts
 
 
 ### Web Based Dashboard
@@ -134,6 +158,20 @@ And Critical locations, Venues and current temperatures & daily forecast for top
 <img src="readme/loc.png" />
 <img src="readme/ven.png" />
 <img src="readme/tem.png" />
+
+##### Animal Farm location provided by NC.Gov's Department of Environmental Quality's Animal Feeding Operations Program 
+
+The N.C. Department of Environmental Quality's Animal Feeding Operations Program has regulated animal operations (swine, cattle, horses and liquid waste treatment system poultry) and established siting requirements for application setbacks from property boundaries and perennial streams since 1992.  In order to protect North Carolina’s waters from pollution, the state Environmental Management Commission (EMC) supports the evaluation of potential impacts from many different sources. We intend to use this locations to determine which zones are likely to face contamination of drinking water, often a major issue in the aftermath of heavy storms.  
+
+<img src="readme/animalfarms.png" />
+
+
+
+And Watershed locations provided by USGS.gov
+
+<img src="readme/watershed.png" />
+
+
 
 ### Jupyter Notebook Analysis
 
@@ -182,7 +220,7 @@ We intend to allow easy integration of new data so that stakeholders may priorit
 
 With enough data, Watson should be able to produce a more accurate index of social vulnerability than is displayed by either the CDC’s SVI or FEMA’s NRI, due to the thoroughness and speed by which risk assessment may be calculated algorithmically. 
 
-<img  src="readme/ORI C4C_Roadmap.png" width="600px" height="1500px" />
+<img  src="readme/c4croadmap.png" width="600px" height="1500px" />
 
 
 

@@ -42,7 +42,8 @@ setTimeout(
 		function() {
 	 		try {MapdefMap.removeLayer(loadingMarker);}catch(err){} 
 	 		document.getElementById("chksvi").checked=false;
-	 	 	try {MapdefMap.removeControl(geosvi);}catch(err){}  
+	 	 	try {MapdefMap.removeControl(geosvi);}catch(err){}   
+ 	 	
  		}, 7000);
 
 	  
@@ -74,7 +75,8 @@ for (i = 0; i < ncriskpop.length; i++) {
 	     countyflddesc[county.toUpperCase().trim()]=flddesc; 
 	     countyareaden[county.toUpperCase().trim()]=popden.toFixed(2);
 }
-
+var damMar=[];
+var animalMar=[];
 var hosMar=[];
 var airMar=[];
 var siteMar=[];
@@ -170,6 +172,12 @@ var readyState = function(e) {
 			 	} catch (err) {
 					console.log(err);
 				}
+			 	
+			 	//https://services2.arcgis.com/kCu40SDxsCGcuUWO/ArcGIS/rest/services/Animal_Feed_Operation_Permits_(View)/FeatureServer
+			 		
+			 
+			 	
+			 	
 			}, 10);
 
 	
@@ -701,7 +709,123 @@ function doAirport(){
 	}
 
 }
+function dochkdam(){
 
+
+	
+	try {
+		if (damMar != null) {
+			for (var k = 0; k < damMar.length; k++) {
+				MapdefMap.removeLayer(damMar[k]);
+			}
+			damMar = [];
+		}
+	} catch (err) {
+	} 
+	  
+	if(document.getElementById('chkdam').checked) {
+	  	$.getJSON("data/ncwatersheds.json", function(response) {
+	 		 
+			  var docsArray = response["rows"]; 
+			  var numDocs = 0; 
+			  if (docsArray) numDocs = docsArray.length;  
+			   if(numDocs>0)
+				  {
+				  var doctxt="";
+				    for (var i = 0; i < numDocs; i++) { 
+					    var urlArray   = docsArray[i];  
+					    var latitude = urlArray["Latitude"];
+					    var longitude = urlArray["Longitude"];
+					    var address = urlArray["Station"]; 
+				 	     var vwIcon = L.icon({
+				 			iconUrl : 'images/icons/ORI-Icons-watershed.png',
+				 			iconSize : [15, 15 ],
+				 		});  
+				 	    var f = L.marker([latitude, longitude ], {
+			 				icon : vwIcon,
+							id: "c"+i
+			 			});
+				 		f.bindPopup(  address +" "); 
+				 		f.addTo(MapdefMap);
+						damMar.push(f);  
+					    
+				    }  
+
+				  }
+			   
+				   
+			});
+		
+	}
+
+
+}
+function doAnimal(){
+
+	
+	var issiteanimal=document.getElementById('siteanimal').checked; 
+ 	if (animalMar!=null) { 
+		for (var k=0;k<animalMar.length;k++) {
+			MapdefMap.removeLayer(animalMar[k]);
+		}
+		animalMar=[];
+	}
+ 	if (issiteanimal){
+ 	dopic('pichos');
+	var uri="data/animalfeed.json"; 
+	var vwIconP = L.icon({
+		iconUrl : 'images/icons/ORI-Icons-poultry.png',
+		iconSize : [10,10],
+	}); 
+	var vwIconS = L.icon({
+		iconUrl : 'images/icons/ORI-Icons-swine.png',
+		iconSize : [10,10],
+	});
+	var vwIconC = L.icon({
+		iconUrl : 'images/icons/ORI-Icons-cattle.png',
+		iconSize : [10,10],
+	}); 
+
+	var vwIcon= vwIconC;
+	
+		 $.getJSON(uri, function( data ) {
+			 var js=data.features; 
+		 	 for (var k=0;k<js.length;k++) {
+				 var Facility=js[k].properties.Facility;
+				 var Permittee=js[k].properties.Permittee;
+			 		 var lat=js[k].properties.Latitude;
+					 var long=js[k].properties.Longitude;
+					 var Region = js[k].properties.Region
+					 var County=js[k].properties.County+' County';
+		 			 var atype=js[k].properties.Type;
+		 			 
+					 if (!(lat>=MINLAT && lat<=MAXLAT && long>=MINLON && long<=MAXLON))	
+						 continue;
+					 if (atype.indexOf("Poultry")>=0) vwIcon= vwIconP;
+					 else if (atype.indexOf("Swine")>=0) vwIcon= vwIconS;
+					 else vwIcon= vwIconC;
+					 
+							 	 var f = L.marker([ lat,long ], {
+		 				icon : vwIcon 
+		 			}); 
+					f.bindPopup(Facility+"<br />" +atype+"<br />" +Region+", "+County);  
+				 	
+					f.on('mouseover', function (e) { 
+		            this.openPopup();
+					});
+					f.on('mouseout', function (e) {
+		            this.closePopup();
+					});
+					f.addTo(MapdefMap);
+					animalMar.push(f);
+				 
+			 }
+			 
+		 }); 
+		 
+	}
+
+}
 function doHospital(){
 	
 	var issitehospital=document.getElementById('sitehospital').checked; 

@@ -1,0 +1,849 @@
+{"rows":[
+  {
+    "Station": "BR-298 M8 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8465611,
+    "Longitude": -77.9657694,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-396 M1 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8527361,
+    "Longitude": -77.9849083,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-294 M2 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8531583,
+    "Longitude": -77.9883944,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-296 SITE D AT BALD HEAD ISL NC (CASTLE HAYNE)",
+    "Type": "Water Sources",
+    "Latitude": 33.8539361,
+    "Longitude": -77.9755972,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-384 HG6D AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8539,
+    "Longitude": -77.9841028,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-390 M9 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8566833,
+    "Longitude": -77.97925,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-399 HG7D2 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8568611,
+    "Longitude": -77.98303889,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-295 M6 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.86039444,
+    "Longitude": -77.9843972,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-403 HG5D AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.862425,
+    "Longitude": -77.9968194,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-394 HG2D AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8623833,
+    "Longitude": -78.0068472,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-382 HG3D AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.86276944,
+    "Longitude": -78.00568889,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-401 M5 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.8655611,
+    "Longitude": -77.9911167,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-388 HG4D2 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.86775,
+    "Longitude": -77.9982778,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-273 M4 AT BALD HEAD ISLAND NC (L SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.86876667,
+    "Longitude": -78.0048778,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BR-391 HG1S AT BALD HEAD ISLAND NC (U SURFICIAL)",
+    "Type": "Water Sources",
+    "Latitude": 33.86874167,
+    "Longitude": -78.0048917,
+    "State": "North Carolina",
+    "County": "Brunswick County",
+    "Country": "United States"
+  },
+  {
+    "Station": "NH-872 NR WILMINGTON NC (PEEDEE)",
+    "Type": "Water Sources",
+    "Latitude": 34.28055556,
+    "Longitude": -77.7583333,
+    "State": "North Carolina",
+    "County": "New Hanover County",
+    "Country": "United States"
+  },
+  {
+    "Station": "NH-881 NR WILMINGTON NC (PEEDEE)",
+    "Type": "Water Sources",
+    "Latitude": 34.28916667,
+    "Longitude": -77.7941667,
+    "State": "North Carolina",
+    "County": "New Hanover County",
+    "Country": "United States"
+  },
+  {
+    "Station": "NH-979 NR WILMINGTON NC (PEEDEE)",
+    "Type": "Water Sources",
+    "Latitude": 34.28969444,
+    "Longitude": -77.7678333,
+    "State": "North Carolina",
+    "County": "New Hanover County",
+    "Country": "United States"
+  },
+  {
+    "Station": "NH-915 NR WILMINGTON NC (PEEDEE)",
+    "Type": "Water Sources",
+    "Latitude": 34.2977861,
+    "Longitude": -77.7449917,
+    "State": "North Carolina",
+    "County": "New Hanover County",
+    "Country": "United States"
+  },
+  {
+    "Station": "NH-882 NR WILMINGTON NC (PEEDEE)",
+    "Type": "Water Sources",
+    "Latitude": 34.30138889,
+    "Longitude": -77.7666667,
+    "State": "North Carolina",
+    "County": "New Hanover County",
+    "Country": "United States"
+  },
+  {
+    "Station": "ON-291 RAGGED POINT WELL (CASTLE HAYNE)",
+    "Type": "Water Sources",
+    "Latitude": 34.67638889,
+    "Longitude": -77.4275,
+    "State": "North Carolina",
+    "County": "Onslow County",
+    "Country": "United States"
+  },
+  {
+    "Station": "CU-395 NR FAYETTEVILLE NC (BOREHOLE)",
+    "Type": "Water Sources",
+    "Latitude": 34.97916667,
+    "Longitude": -78.8686111,
+    "State": "North Carolina",
+    "County": "Cumberland County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BO-430 GODLEY RS 7",
+    "Type": "Water Sources",
+    "Latitude": 35.31575,
+    "Longitude": -76.7275833,
+    "State": "North Carolina",
+    "County": "Beaufort County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BO-426 BONNERTON RS 7",
+    "Type": "Water Sources",
+    "Latitude": 35.34369444,
+    "Longitude": -76.8610556,
+    "State": "North Carolina",
+    "County": "Beaufort County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-070 BENT CREEK RS MW-1D (BEDROCK WELL)",
+    "Type": "Water Sources",
+    "Latitude": 35.47805556,
+    "Longitude": -82.6366667,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-111 NEAR SKYLAND NC",
+    "Type": "Water Sources",
+    "Latitude": 35.49238889,
+    "Longitude": -82.5013333,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-110 NEAR SKYLAND NC",
+    "Type": "Water Sources",
+    "Latitude": 35.49677778,
+    "Longitude": -82.5002778,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-104 NEAR SKYLAND NC",
+    "Type": "Water Sources",
+    "Latitude": 35.4991111,
+    "Longitude": -82.4967778,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-106 NEAR SKYLAND NC",
+    "Type": "Water Sources",
+    "Latitude": 35.4993611,
+    "Longitude": -82.4974444,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-109 NEAR SKYLAND NC",
+    "Type": "Water Sources",
+    "Latitude": 35.4994722,
+    "Longitude": -82.498,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "BU-105 NEAR SKYLAND NC",
+    "Type": "Water Sources",
+    "Latitude": 35.49994444,
+    "Longitude": -82.49688889,
+    "State": "North Carolina",
+    "County": "Buncombe County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-147 LANGTREE RS MW-1D (BEDROCK WELL)",
+    "Type": "Water Sources",
+    "Latitude": 35.52805556,
+    "Longitude": -80.8797222,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-438 US HWY 401 FUQUAY-VARINA NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.55555556,
+    "Longitude": -78.8086111,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-434 NC HWY 42 NEAR WILLOW SPRING NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.5858333,
+    "Longitude": -78.6780556,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RA-164 NC ZOO RS MW-1D (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.6177972,
+    "Longitude": -79.7533056,
+    "State": "North Carolina",
+    "County": "Randolph County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RA-170 NC ZOO RS MW-3D (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.61993889,
+    "Longitude": -79.7575944,
+    "State": "North Carolina",
+    "County": "Randolph County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-435 PARRISH WOMBLE PK HOLLY SPRINGS NC BEDROCK",
+    "Type": "Water Sources",
+    "Latitude": 35.6425,
+    "Longitude": -78.8258333,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-437 CROWDER CO PK NR HOLLY SPRINGS NC BEDROCK",
+    "Type": "Water Sources",
+    "Latitude": 35.69555556,
+    "Longitude": -78.7669444,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-279 LAKE WHEELER RS MW-1D (BEDROCK WELL)",
+    "Type": "Water Sources",
+    "Latitude": 35.7322222,
+    "Longitude": -78.6761111,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-282 LAKE WHEELER RS MW-2T (TRANSITION ZONE WELL",
+    "Type": "Water Sources",
+    "Latitude": 35.73305556,
+    "Longitude": -78.6755556,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-283 LAKE WHEELER RS MW-2D (BEDROCK WELL)",
+    "Type": "Water Sources",
+    "Latitude": 35.73305556,
+    "Longitude": -78.6755556,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "CW-351 OXFORD RS NR CLAREMONT NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.77105,
+    "Longitude": -81.1473472,
+    "State": "North Carolina",
+    "County": "Catawba County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-428 ROCKY BRANCH RS RB-2 AT RALEIGH NC BEDROCK",
+    "Type": "Water Sources",
+    "Latitude": 35.78027778,
+    "Longitude": -78.6686111,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-439 POWELL DRIVE RALEIGH NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.78416667,
+    "Longitude": -78.7122222,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-426 FARMWELL RD NEAR RALEIGH NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.79666667,
+    "Longitude": -78.5330556,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-429 WENDELL MS NEAR WENDELL NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.805,
+    "Longitude": -78.3947222,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "CH-252 NEW HOPE CHURCH RD CARY NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.81527778,
+    "Longitude": -78.9255556,
+    "State": "North Carolina",
+    "County": "Chatham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-171 ALLISON WOODS RS MW-3D BED NR TURNERSBURG",
+    "Type": "Water Sources",
+    "Latitude": 35.90638056,
+    "Longitude": -80.8253528,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-172 ALLISON WOODS RS CH-3 NR TURNERSBURG NC",
+    "Type": "Water Sources",
+    "Latitude": 35.906375,
+    "Longitude": -80.8253417,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-175 ALLISON WOODS RS MW-4D BED NR TURNERSBURG",
+    "Type": "Water Sources",
+    "Latitude": 35.9077333,
+    "Longitude": -80.827,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-176 ALLISON WOODS RS CH-4 NR TURNERSBURG NC",
+    "Type": "Water Sources",
+    "Latitude": 35.90773889,
+    "Longitude": -80.8269111,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-167 ALLISON WOODS MW-2D (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.9078583,
+    "Longitude": -80.8250528,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-168 ALLISON WOODS RS CH-2 NR TURNERSBURG NC",
+    "Type": "Water Sources",
+    "Latitude": 35.9078583,
+    "Longitude": -80.825125,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-163 ALLISON WOODS RS MW-1D BED NR TURNERSBURG",
+    "Type": "Water Sources",
+    "Latitude": 35.90825,
+    "Longitude": -80.8231,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "IR-164 ALLISON WOODS RS CH-1 NR TURNERSBURG NC",
+    "Type": "Water Sources",
+    "Latitude": 35.90841667,
+    "Longitude": -80.8232278,
+    "State": "North Carolina",
+    "County": "Iredell County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-432 PULLEY TOWN RD NR ROLESVILLE NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.9158333,
+    "Longitude": -78.3908333,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-411 NORWOOD OAKS RALEIGH NC",
+    "Type": "Water Sources",
+    "Latitude": 35.9427611,
+    "Longitude": -78.6857917,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-431 FOREST RIDGE PARK WAKE FOREST NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 35.94916667,
+    "Longitude": -78.57388889,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "WK-430 NC HWY 50 NEAR NEW LIGHT NC (BEDROCK)",
+    "Type": "Water Sources",
+    "Latitude": 36.06444444,
+    "Longitude": -78.6955556,
+    "State": "North Carolina",
+    "County": "Wake County",
+    "Country": "United States"
+  },
+  {
+    "Station": "GV-157 (MW-12D)",
+    "Type": "Water Sources",
+    "Latitude": 36.29666667,
+    "Longitude": -78.6066667,
+    "State": "North Carolina",
+    "County": "Granville County",
+    "Country": "United States"
+  },
+  {
+    "Station": "GV-156 (MW-03D)",
+    "Type": "Water Sources",
+    "Latitude": 36.29694444,
+    "Longitude": -78.60638889,
+    "State": "North Carolina",
+    "County": "Granville County",
+    "Country": "United States"
+  },
+  {
+    "Station": "GV-158 (MW-16D)",
+    "Type": "Water Sources",
+    "Latitude": 36.2975,
+    "Longitude": -78.6055556,
+    "State": "North Carolina",
+    "County": "Granville County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-244 UPPER PIEDMONT RS MW-S4I",
+    "Type": "Water Sources",
+    "Latitude": 36.37388889,
+    "Longitude": -79.6836111,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-233 UPPER PIEDMONT RS MW-N3I",
+    "Type": "Water Sources",
+    "Latitude": 36.3911111,
+    "Longitude": -79.7047222,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-230 UPPER PIEDMONT RS MW-N2S",
+    "Type": "Water Sources",
+    "Latitude": 36.3922222,
+    "Longitude": -79.7047222,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-231 UPPER PIEDMONT RS MW-N2I",
+    "Type": "Water Sources",
+    "Latitude": 36.3922222,
+    "Longitude": -79.7044444,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-232 UPPER PIEDMONT RS MW-N2D",
+    "Type": "Water Sources",
+    "Latitude": 36.3922222,
+    "Longitude": -79.7047222,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-227 UPPER PIEDMONT RS MW-N1S",
+    "Type": "Water Sources",
+    "Latitude": 36.39305556,
+    "Longitude": -79.7047222,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "RK-229 UPPER PIEDMONT RS MW-N1D",
+    "Type": "Water Sources",
+    "Latitude": 36.39305556,
+    "Longitude": -79.7047222,
+    "State": "North Carolina",
+    "County": "Rockingham County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-093 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41473056,
+    "Longitude": -78.9408444,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-101 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41502778,
+    "Longitude": -78.9413667,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-108 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41518056,
+    "Longitude": -78.9418806,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-114 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41527778,
+    "Longitude": -78.94288889,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-100 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4156083,
+    "Longitude": -78.9411111,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-105 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41571389,
+    "Longitude": -78.9415167,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-095 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41588889,
+    "Longitude": -78.9449167,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-099 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41599444,
+    "Longitude": -78.9405361,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-094 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41610556,
+    "Longitude": -78.941775,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-112 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41630556,
+    "Longitude": -78.9410833,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-119 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41627778,
+    "Longitude": -78.94113889,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-111 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41680278,
+    "Longitude": -78.9417361,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-097 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4167083,
+    "Longitude": -78.9431694,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-106 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41692778,
+    "Longitude": -78.94045,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-107 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41680556,
+    "Longitude": -78.9409444,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-118 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4172222,
+    "Longitude": -78.94,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-117 NEAR ROXBORO (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4172222,
+    "Longitude": -78.9402778,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-109 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4173472,
+    "Longitude": -78.9433028,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-115 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4175,
+    "Longitude": -78.9427778,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-116 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41777778,
+    "Longitude": -78.93888889,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-103 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41781389,
+    "Longitude": -78.93981389,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-104 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.4179972,
+    "Longitude": -78.9397583,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-102 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41794444,
+    "Longitude": -78.94125,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-098 NEAR ROXBORO NC (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.41876389,
+    "Longitude": -78.9410472,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  },
+  {
+    "Station": "PS-096 NEAR ROXBORO (GRANITE)",
+    "Type": "Water Sources",
+    "Latitude": 36.42075278,
+    "Longitude": -78.9408,
+    "State": "North Carolina",
+    "County": "Person County",
+    "Country": "United States"
+  }
+]
+}

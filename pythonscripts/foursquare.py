@@ -12,8 +12,8 @@ df_nc['address']=df_nc['city']+', '+df_nc['county_name']+' County, North Carolin
 print(df_nc)
 
 
-CLIENT_ID = '1KC0CKO5AAE5DMOFHDPXWOOQOBLMN2T1YWMGTFMA5C5DSGCS' # your Foursquare ID
-CLIENT_SECRET = 'TZAN5P5MEYJ54MV4UCQU0RK1K0UURYB5ACEGYCDJIUNCGRUM' # your Foursquare Secret
+CLIENT_ID = 'xxxx' # your Foursquare ID
+CLIENT_SECRET = 'xxx' # your Foursquare Secret
 VERSION = '20191210' # Foursquare API version
 radius=100000
 LIMIT=100000
